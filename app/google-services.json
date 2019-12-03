@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "841517726933",
+    "firebase_url": "https://film-puanlama.firebaseio.com",
+    "project_id": "film-puanlama",
+    "storage_bucket": "film-puanlama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841517726933:android:386968a8cf6903ad7a765c",
+        "android_client_info": {
+          "package_name": "com.example.filmpuanlama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841517726933-se0v95a241373k07l1320je6pug4nbne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.filmpuanlama",
+            "certificate_hash": "cddf1940c61341426fdbbb5c40ffb11cf5df2580"
+          }
+        },
+        {
+          "client_id": "841517726933-p4j75ejvemuee3qlup84eqko127pft8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy7mleIHhEYBUz3lhfIBBxWFcZ9GJ5uLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841517726933-p4j75ejvemuee3qlup84eqko127pft8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

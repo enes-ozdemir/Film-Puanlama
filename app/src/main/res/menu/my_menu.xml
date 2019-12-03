@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_Anasayfa"
+        android:title="Anasayfa"
+        app:showAsAction="always" />
+    <item android:id="@+id/menu_siralama"
+        android:title="Film Sıralama"
+        app:showAsAction="always" />
+    <item android:id="@+id/menu_Film_Puanla"
+        android:title="Film Puanla"
+        app:showAsAction="always" />
+    <item android:id="@+id/menu_Film_Ekle"
+        android:title="Film Ekle"
+        app:showAsAction="always" />
+
+
+
+</menu>

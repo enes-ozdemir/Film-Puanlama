@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/film_puanla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:layout_marginBottom="249dp"
+        android:text="Film Puanla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/film_siralama"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/film_siralama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:text="Film Sıralaması"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/giris_yap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Giriş Yap"
+        app:layout_constraintStart_toStartOf="@+id/kayit_ol"
+        app:layout_constraintTop_toBottomOf="@+id/kayit_ol" />
+
+    <Button
+        android:id="@+id/film_ekle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="20dp"
+        android:text="Film Ekle"
+        app:layout_constraintBottom_toTopOf="@+id/film_puanla"
+        app:layout_constraintEnd_toEndOf="@+id/film_puanla" />
+
+    <Button
+        android:id="@+id/kayit_ol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:text="Kayıt Ol"
+        app:layout_constraintEnd_toEndOf="@+id/film_siralama"
+        app:layout_constraintTop_toBottomOf="@+id/film_siralama" />
+
+    <Button
+        android:id="@+id/btn_cikis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="Çıkış Yap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cikis"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cikis"
+        tools:srcCompat="@tools:sample/avatars[10]" />
+</androidx.constraintlayout.widget.ConstraintLayout>
